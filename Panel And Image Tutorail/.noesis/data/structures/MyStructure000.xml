@@ -1,0 +1,8 @@
+<Class Name="MyStructure000">
+  <Property Name="PanelOneVisibility" Type="String" StringMinWordCount="0" StringMaxWordCount="10"/>
+  <Property Name="PanelTwoVisibility" Type="String" StringMinWordCount="0" StringMaxWordCount="10"/>
+  <Property Name="NextBtn" Type="Command"/>
+  <Property Name="LastBtn" Type="Command"/>
+  <Property Name="ImageBtn" Type="Command"/>
+  <Property Name="Image" Type="Object" SubType="ImageSource" ImageSourcePath=""/>
+</Class>

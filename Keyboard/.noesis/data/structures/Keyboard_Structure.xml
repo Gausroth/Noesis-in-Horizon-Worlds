@@ -1,0 +1,69 @@
+<Class Name="Keyboard_Structure">
+  <Property Name="RowOneButtonOne" Type="Command"/>
+  <Property Name="RowOneButtonTwo" Type="Command"/>
+  <Property Name="RowOneButtonThree" Type="Command"/>
+  <Property Name="RowOneButtonFour" Type="Command"/>
+  <Property Name="RowOneButtonFive" Type="Command"/>
+  <Property Name="RowOneButtonSix" Type="Command"/>
+  <Property Name="RowOneButtonSeven" Type="Command"/>
+  <Property Name="RowOneButtonEight" Type="Command"/>
+  <Property Name="RowOneButtonNine" Type="Command"/>
+  <Property Name="RowOneButtonTen" Type="Command"/>
+  <Property Name="RowOneButtonEleven" Type="Command"/>
+  <Property Name="RowOneButtonTwelve" Type="Command"/>
+  <Property Name="RowOneButtonThirteen" Type="Command"/>
+  <Property Name="RowOneButtonFourteen" Type="Command"/>
+  <Property Name="RowTwoButtonOne" Type="Command"/>
+  <Property Name="RowTwoButtonTwo" Type="Command"/>
+  <Property Name="RowTwoButtonThree" Type="Command"/>
+  <Property Name="RowTwoButtonFour" Type="Command"/>
+  <Property Name="RowTwoButtonFive" Type="Command"/>
+  <Property Name="RowTwoButtonSix" Type="Command"/>
+  <Property Name="RowTwoButtonSeven" Type="Command"/>
+  <Property Name="RowTwoButtonEight" Type="Command"/>
+  <Property Name="RowTwoButtonNine" Type="Command"/>
+  <Property Name="RowTwoButtonTen" Type="Command"/>
+  <Property Name="RowTwoButtonEleven" Type="Command"/>
+  <Property Name="RowTwoButtonTwelve" Type="Command"/>
+  <Property Name="RowTwoButtonThirteen" Type="Command"/>
+  <Property Name="RowTwoButtonFourteen" Type="Command"/>
+  <Property Name="RowThreeButtonOne" Type="Command"/>
+  <Property Name="RowThreeButtonTwo" Type="Command"/>
+  <Property Name="RowThreeButtonThree" Type="Command"/>
+  <Property Name="RowThreeButtonFour" Type="Command"/>
+  <Property Name="RowThreeButtonFive" Type="Command"/>
+  <Property Name="RowThreeButtonSix" Type="Command"/>
+  <Property Name="RowThreeButtonSeven" Type="Command"/>
+  <Property Name="RowThreeButtonEight" Type="Command"/>
+  <Property Name="RowThreeButtonNine" Type="Command"/>
+  <Property Name="RowThreeButtonTen" Type="Command"/>
+  <Property Name="RowThreeButtonEleven" Type="Command"/>
+  <Property Name="RowThreeButtonTwelve" Type="Command"/>
+  <Property Name="RowThreeButtonThirteen" Type="Command"/>
+  <Property Name="RowFourButtonOne" Type="Command"/>
+  <Property Name="RowFourButtonTwo" Type="Command"/>
+  <Property Name="RowFourButtonThree" Type="Command"/>
+  <Property Name="RowFourButtonFour" Type="Command"/>
+  <Property Name="RowFourButtonFive" Type="Command"/>
+  <Property Name="RowFourButtonSix" Type="Command"/>
+  <Property Name="RowFourButtonSeven" Type="Command"/>
+  <Property Name="RowFourButtonEight" Type="Command"/>
+  <Property Name="RowFourButtonNine" Type="Command"/>
+  <Property Name="RowFourButtonTen" Type="Command"/>
+  <Property Name="RowFourButtonEleven" Type="Command"/>
+  <Property Name="RowFourButtonTwelve" Type="Command"/>
+  <Property Name="Space" Type="Command"/>
+  <Property Name="RButton" Type="Command"/>
+  <Property Name="GButton" Type="Command"/>
+  <Property Name="BButton" Type="Command"/>
+  <Property Name="R" Type="String" StringMinWordCount="0" StringMaxWordCount="10"/>
+  <Property Name="G" Type="String" StringMinWordCount="0" StringMaxWordCount="10"/>
+  <Property Name="B" Type="String" StringMinWordCount="0" StringMaxWordCount="10"/>
+  <Property Name="FontColor" Type="String" StringMinWordCount="0" StringMaxWordCount="10"/>
+  <Property Name="RowThreeButtonOneButtonColor" Type="String" StringMinWordCount="0" StringMaxWordCount="10"/>
+  <Property Name="RowFourButtonOneButtonColor" Type="String" StringMinWordCount="0" StringMaxWordCount="10"/>
+  <Property Name="RowFourButtonTwelveButtonColor" Type="String" StringMinWordCount="0" StringMaxWordCount="10"/>
+  <Property Name="RButtonColor" Type="String" StringMinWordCount="0" StringMaxWordCount="10"/>
+  <Property Name="GButtonColor" Type="String" StringMinWordCount="0" StringMaxWordCount="10"/>
+  <Property Name="BButtonColor" Type="String" StringMinWordCount="0" StringMaxWordCount="10"/>
+</Class>

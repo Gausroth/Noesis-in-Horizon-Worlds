@@ -1,0 +1,5 @@
+<Project>
+  <Assembly>Calculator</Assembly>
+  <DefaultDataNamespace>Calculator</DefaultDataNamespace>
+  <StartupDocument>MainPage.xaml</StartupDocument>
+</Project>

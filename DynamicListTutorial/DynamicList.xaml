@@ -1,0 +1,23 @@
+<Page
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+  mc:Ignorable="d"
+  d:DesignWidth="1920"
+  d:DesignHeight="1080"
+  Background="#FF4D5052" Width="1024" Height="1024" xmlns:system="clr-namespace:System;assembly=mscorlib" d:DataContext="MyList Data 01">
+  <Page.Resources>
+    <ResourceDictionary>
+      <DataTemplate x:Key="ListBoxItemTemplate">
+        <StackPanel Orientation="Horizontal" Background="#FF000000">
+          <ListBoxItem x:Name="ID" Width="40" Content="{Binding Path=ID}"/>
+          <ListBoxItem x:Name="Name" Width="436" Content="{Binding Path=Name}"/>
+        </StackPanel>
+      </DataTemplate>
+    </ResourceDictionary>
+  </Page.Resources>
+  <Grid>
+    <ListBox Width="500" Height="500" ItemTemplate="{DynamicResource ListBoxItemTemplate}" ItemsSource="{Binding Path=Players}"/>
+  </Grid>
+</Page>

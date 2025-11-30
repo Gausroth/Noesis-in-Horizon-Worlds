@@ -1,0 +1,5 @@
+<Project>
+  <Assembly>Panel_And_Image_Tutorail</Assembly>
+  <DefaultDataNamespace>Panel_And_Image_Tutorail</DefaultDataNamespace>
+  <StartupDocument>MainPage.xaml</StartupDocument>
+</Project>

@@ -1,0 +1,20 @@
+<Class Name="Calculator_Structure">
+  <Property Name="ZeroButtonEvent" Type="Command"/>
+  <Property Name="DecimalButtonEvent" Type="Command"/>
+  <Property Name="EqualsButtonEvent" Type="Command"/>
+  <Property Name="AdditionButtonEvent" Type="Command"/>
+  <Property Name="OneButtonEvent" Type="Command"/>
+  <Property Name="TwoButtonEvent" Type="Command"/>
+  <Property Name="ThreeButtonEvent" Type="Command"/>
+  <Property Name="SubtractionButtonEvent" Type="Command"/>
+  <Property Name="FourButtonEvent" Type="Command"/>
+  <Property Name="FiveButtonEvent" Type="Command"/>
+  <Property Name="SixButtonEvent" Type="Command"/>
+  <Property Name="MultiplicationButtonEvent" Type="Command"/>
+  <Property Name="SevenButtonEvent" Type="Command"/>
+  <Property Name="EightButtonEvent" Type="Command"/>
+  <Property Name="NineButtonEvent" Type="Command"/>
+  <Property Name="DivisionButtonEvent" Type="Command"/>
+  <Property Name="ClearButtonEvent" Type="Command"/>
+  <Property Name="Text" Type="String" StringMinWordCount="0" StringMaxWordCount="10"/>
+</Class>

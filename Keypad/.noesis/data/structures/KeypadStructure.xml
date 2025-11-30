@@ -1,0 +1,4 @@
+<Class Name="KeypadStructure">
+  <Property Name="DisplayText" Type="String" StringMinWordCount="0" StringMaxWordCount="10"/>
+  <Property Name="Button" Type="Command"/>
+</Class>

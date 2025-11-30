@@ -1,0 +1,16 @@
+<Page
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+  mc:Ignorable="d"
+  d:DesignWidth="1920"
+  d:DesignHeight="1080"
+  Background="#FF4D5052" Width="1024" Height="1024" d:DataContext="Button_Structure Data" xmlns:system="clr-namespace:System;assembly=mscorlib">
+  <Grid>
+    <StackPanel>
+      <TextBlock Text="{Binding Path=Textbox}" TextWrapping="Wrap" Width="250" Height="250" Margin="50,50,50,50" FontSize="40" TextAlignment="Center" Padding="0,100,0,100"/>
+      <Button Content="Button" Command="{Binding Path=ButtonClickEvent}" Width="250" Height="250"/>
+    </StackPanel>
+  </Grid>
+</Page>

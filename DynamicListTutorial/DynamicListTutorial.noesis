@@ -1,0 +1,5 @@
+<Project>
+  <Assembly>DynamicListTutorial</Assembly>
+  <DefaultDataNamespace>DynamicListTutorial</DefaultDataNamespace>
+  <StartupDocument>MainPage.xaml</StartupDocument>
+</Project>

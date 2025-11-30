@@ -1,0 +1,5 @@
+<Project>
+  <Assembly>Keyboard</Assembly>
+  <DefaultDataNamespace>Keyboard</DefaultDataNamespace>
+  <StartupDocument>MainPage.xaml</StartupDocument>
+</Project>

@@ -1,0 +1,8 @@
+<vdctx:MyList xmlns:vdctx="clr-namespace:DynamicListTutorial">
+  <vdctx:MyList.Players>
+    <vdctx:MyListItem ID="93" Name="Nec sagittis. Lorem ipsum dolor sit amet, consectetur"/>
+    <vdctx:MyListItem ID="27" Name="Justo. Odio ut"/>
+    <vdctx:MyListItem ID="74" Name="Id"/>
+    <vdctx:MyListItem ID="90" Name="Odio ut enim"/>
+  </vdctx:MyList.Players>
+</vdctx:MyList>

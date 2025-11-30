@@ -1,0 +1,11 @@
+<vdctx:MyStructure000 xmlns:vdctx="clr-namespace:Panel_And_Image_Tutorail" xmlns:xml="http://www.w3.org/XML/1998/namespace">
+  <vdctx:MyStructure000.ImageBtn>
+    <MessageCommand Message="Command Executed" IsEnabled="True"/>
+  </vdctx:MyStructure000.ImageBtn>
+  <vdctx:MyStructure000.LastBtn>
+    <MessageCommand Message="Command Executed" IsEnabled="True"/>
+  </vdctx:MyStructure000.LastBtn>
+  <vdctx:MyStructure000.NextBtn>
+    <MessageCommand Message="Command Executed" IsEnabled="True"/>
+  </vdctx:MyStructure000.NextBtn>
+</vdctx:MyStructure000>

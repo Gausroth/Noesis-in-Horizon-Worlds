@@ -1,0 +1,173 @@
+<vdctx:Keyboard_Structure xmlns:vdctx="clr-namespace:Keyboard" R="R: 255" G="G: 255" B="B: 255" RowOneButtonOneButtonColor="#ff000000" RowOneButtonTwoButtonColor="#ff000000" RowOneButtonThreeButtonColor="#ff000000" RowOneButtonFourButtonColor="#ff000000" RowOneButtonFiveButtonColor="#ff000000" RowOneButtonSixButtonColor="#ff000000" RowOneButtonSevenButtonColor="#ff000000" RowOneButtonEightButtonColor="#ff000000" RowOneButtonNineButtonColor="#ff000000" RowOneButtonTenButtonColor="#ff000000" RowOneButtonElevenButtonColor="#ff000000" RowOneButtonTwelveButtonColor="#ff000000" RowOneButtonThirteenButtonColor="#ff000000" RowOneButtonFourteenButtonColor="#ff000000" RowTwoButtonOneButtonColor="#ff000000" RowTwoButtonTwoButtonColor="#ff000000" RowTwoButtonThreeButtonColor="#ff000000" RowTwoButtonFourButtonColor="#ff000000" RowTwoButtonFiveButtonColor="#ff000000" RowTwoButtonSixButtonColor="#ff000000" RowTwoButtonSevenButtonColor="#ff000000" RowTwoButtonEightButtonColor="#ff000000" RowTwoButtonNineButtonColor="#ff000000" RowTwoButtonTenButtonColor="#ff000000" RowTwoButtonElevenButtonColor="#ff000000" RowTwoButtonTwelveButtonColor="#ff000000" RowTwoButtonThirteenButtonColor="#ff000000" RowTwoButtonFourteenButtonColor="#ff000000" RowThreeButtonOneButtonColor="#ff000000" RowThreeButtonTwoButtonColor="#ff000000" RowThreeButtonThreeButtonColor="#ff000000" RowThreeButtonFourButtonColor="#ff000000" RowThreeButtonFiveButtonColor="#ff000000" RowThreeButtonSixButtonColor="#ff000000" RowThreeButtonSevenButtonColor="#ff000000" RowThreeButtonEightButtonColor="#ff000000" RowThreeButtonNineButtonColor="#ff000000" RowThreeButtonTenButtonColor="#ff000000" RowThreeButtonElevenButtonColor="#ff000000" RowThreeButtonTwelveButtonColor="#ff000000" RowThreeButtonThirteenButtonColor="#ff000000" RowFourButtonOneButtonColor="#ff000000" RowFourButtonTwoButtonColor="#ff000000" RowFourButtonThreeButtonColor="#ff000000" RowFourButtonFourButtonColor="#ff000000" RowFourButtonFiveButtonColor="#ff000000" RowFourButtonSixButtonColor="#ff000000" RowFourButtonSevenButtonColor="#ff000000" RowFourButtonEightButtonColor="#ff000000" RowFourButtonNineButtonColor="#ff000000" RowFourButtonTenButtonColor="#ff000000" RowFourButtonElevenButtonColor="#ff000000" RowFourButtonTwelveButtonColor="#ff000000" SpaceButtonColor="#ff000000" RButtonColor="#ff000000" GButtonColor="#ff000000" BButtonColor="#ff000000" xmlns:xml="http://www.w3.org/XML/1998/namespace" FontColor="#ffffffff">
+  <vdctx:Keyboard_Structure.BButton>
+    <MessageCommand Message="Command Executed" IsEnabled="True"/>
+  </vdctx:Keyboard_Structure.BButton>
+  <vdctx:Keyboard_Structure.GButton>
+    <MessageCommand Message="Command Executed" IsEnabled="True"/>
+  </vdctx:Keyboard_Structure.GButton>
+  <vdctx:Keyboard_Structure.RButton>
+    <MessageCommand Message="Command Executed" IsEnabled="True"/>
+  </vdctx:Keyboard_Structure.RButton>
+  <vdctx:Keyboard_Structure.RowFourButtonTwelve>
+    <MessageCommand Message="Command Executed" IsEnabled="True"/>
+  </vdctx:Keyboard_Structure.RowFourButtonTwelve>
+  <vdctx:Keyboard_Structure.RowFourButtonEleven>
+    <MessageCommand Message="Command Executed" IsEnabled="True"/>
+  </vdctx:Keyboard_Structure.RowFourButtonEleven>
+  <vdctx:Keyboard_Structure.RowFourButtonTen>
+    <MessageCommand Message="Command Executed" IsEnabled="True"/>
+  </vdctx:Keyboard_Structure.RowFourButtonTen>
+  <vdctx:Keyboard_Structure.RowFourButtonNine>
+    <MessageCommand Message="Command Executed" IsEnabled="True"/>
+  </vdctx:Keyboard_Structure.RowFourButtonNine>
+  <vdctx:Keyboard_Structure.RowFourButtonEight>
+    <MessageCommand Message="Command Executed" IsEnabled="True"/>
+  </vdctx:Keyboard_Structure.RowFourButtonEight>
+  <vdctx:Keyboard_Structure.RowFourButtonSeven>
+    <MessageCommand Message="Command Executed" IsEnabled="True"/>
+  </vdctx:Keyboard_Structure.RowFourButtonSeven>
+  <vdctx:Keyboard_Structure.RowFourButtonSix>
+    <MessageCommand Message="Command Executed" IsEnabled="True"/>
+  </vdctx:Keyboard_Structure.RowFourButtonSix>
+  <vdctx:Keyboard_Structure.RowFourButtonFive>
+    <MessageCommand Message="Command Executed" IsEnabled="True"/>
+  </vdctx:Keyboard_Structure.RowFourButtonFive>
+  <vdctx:Keyboard_Structure.RowFourButtonFour>
+    <MessageCommand Message="Command Executed" IsEnabled="True"/>
+  </vdctx:Keyboard_Structure.RowFourButtonFour>
+  <vdctx:Keyboard_Structure.RowFourButtonThree>
+    <MessageCommand Message="Command Executed" IsEnabled="True"/>
+  </vdctx:Keyboard_Structure.RowFourButtonThree>
+  <vdctx:Keyboard_Structure.RowFourButtonTwo>
+    <MessageCommand Message="Command Executed" IsEnabled="True"/>
+  </vdctx:Keyboard_Structure.RowFourButtonTwo>
+  <vdctx:Keyboard_Structure.RowFourButtonOne>
+    <MessageCommand Message="Command Executed" IsEnabled="True"/>
+  </vdctx:Keyboard_Structure.RowFourButtonOne>
+  <vdctx:Keyboard_Structure.RowThreeButtonThirteen>
+    <MessageCommand Message="Command Executed" IsEnabled="True"/>
+  </vdctx:Keyboard_Structure.RowThreeButtonThirteen>
+  <vdctx:Keyboard_Structure.RowThreeButtonTwelve>
+    <MessageCommand Message="Command Executed" IsEnabled="True"/>
+  </vdctx:Keyboard_Structure.RowThreeButtonTwelve>
+  <vdctx:Keyboard_Structure.RowThreeButtonEleven>
+    <MessageCommand Message="Command Executed" IsEnabled="True"/>
+  </vdctx:Keyboard_Structure.RowThreeButtonEleven>
+  <vdctx:Keyboard_Structure.RowThreeButtonTen>
+    <MessageCommand Message="Command Executed" IsEnabled="True"/>
+  </vdctx:Keyboard_Structure.RowThreeButtonTen>
+  <vdctx:Keyboard_Structure.RowThreeButtonNine>
+    <MessageCommand Message="Command Executed" IsEnabled="True"/>
+  </vdctx:Keyboard_Structure.RowThreeButtonNine>
+  <vdctx:Keyboard_Structure.RowThreeButtonEight>
+    <MessageCommand Message="Command Executed" IsEnabled="True"/>
+  </vdctx:Keyboard_Structure.RowThreeButtonEight>
+  <vdctx:Keyboard_Structure.RowThreeButtonSeven>
+    <MessageCommand Message="Command Executed" IsEnabled="True"/>
+  </vdctx:Keyboard_Structure.RowThreeButtonSeven>
+  <vdctx:Keyboard_Structure.RowThreeButtonSix>
+    <MessageCommand Message="Command Executed" IsEnabled="True"/>
+  </vdctx:Keyboard_Structure.RowThreeButtonSix>
+  <vdctx:Keyboard_Structure.RowThreeButtonFive>
+    <MessageCommand Message="Command Executed" IsEnabled="True"/>
+  </vdctx:Keyboard_Structure.RowThreeButtonFive>
+  <vdctx:Keyboard_Structure.RowThreeButtonFour>
+    <MessageCommand Message="Command Executed" IsEnabled="True"/>
+  </vdctx:Keyboard_Structure.RowThreeButtonFour>
+  <vdctx:Keyboard_Structure.RowThreeButtonThree>
+    <MessageCommand Message="Command Executed" IsEnabled="True"/>
+  </vdctx:Keyboard_Structure.RowThreeButtonThree>
+  <vdctx:Keyboard_Structure.RowThreeButtonTwo>
+    <MessageCommand Message="Command Executed" IsEnabled="True"/>
+  </vdctx:Keyboard_Structure.RowThreeButtonTwo>
+  <vdctx:Keyboard_Structure.RowThreeButtonOne>
+    <MessageCommand Message="Command Executed" IsEnabled="True"/>
+  </vdctx:Keyboard_Structure.RowThreeButtonOne>
+  <vdctx:Keyboard_Structure.RowTwoButtonFourteen>
+    <MessageCommand Message="Command Executed" IsEnabled="True"/>
+  </vdctx:Keyboard_Structure.RowTwoButtonFourteen>
+  <vdctx:Keyboard_Structure.RowTwoButtonThirteen>
+    <MessageCommand Message="Command Executed" IsEnabled="True"/>
+  </vdctx:Keyboard_Structure.RowTwoButtonThirteen>
+  <vdctx:Keyboard_Structure.RowTwoButtonTwelve>
+    <MessageCommand Message="Command Executed" IsEnabled="True"/>
+  </vdctx:Keyboard_Structure.RowTwoButtonTwelve>
+  <vdctx:Keyboard_Structure.RowTwoButtonEleven>
+    <MessageCommand Message="Command Executed" IsEnabled="True"/>
+  </vdctx:Keyboard_Structure.RowTwoButtonEleven>
+  <vdctx:Keyboard_Structure.RowTwoButtonTen>
+    <MessageCommand Message="Command Executed" IsEnabled="True"/>
+  </vdctx:Keyboard_Structure.RowTwoButtonTen>
+  <vdctx:Keyboard_Structure.RowTwoButtonNine>
+    <MessageCommand Message="Command Executed" IsEnabled="True"/>
+  </vdctx:Keyboard_Structure.RowTwoButtonNine>
+  <vdctx:Keyboard_Structure.RowTwoButtonEight>
+    <MessageCommand Message="Command Executed" IsEnabled="True"/>
+  </vdctx:Keyboard_Structure.RowTwoButtonEight>
+  <vdctx:Keyboard_Structure.RowTwoButtonSeven>
+    <MessageCommand Message="Command Executed" IsEnabled="True"/>
+  </vdctx:Keyboard_Structure.RowTwoButtonSeven>
+  <vdctx:Keyboard_Structure.RowTwoButtonSix>
+    <MessageCommand Message="Command Executed" IsEnabled="True"/>
+  </vdctx:Keyboard_Structure.RowTwoButtonSix>
+  <vdctx:Keyboard_Structure.RowTwoButtonFive>
+    <MessageCommand Message="Command Executed" IsEnabled="True"/>
+  </vdctx:Keyboard_Structure.RowTwoButtonFive>
+  <vdctx:Keyboard_Structure.RowTwoButtonFour>
+    <MessageCommand Message="Command Executed" IsEnabled="True"/>
+  </vdctx:Keyboard_Structure.RowTwoButtonFour>
+  <vdctx:Keyboard_Structure.RowTwoButtonThree>
+    <MessageCommand Message="Command Executed" IsEnabled="True"/>
+  </vdctx:Keyboard_Structure.RowTwoButtonThree>
+  <vdctx:Keyboard_Structure.RowTwoButtonTwo>
+    <MessageCommand Message="Command Executed" IsEnabled="True"/>
+  </vdctx:Keyboard_Structure.RowTwoButtonTwo>
+  <vdctx:Keyboard_Structure.RowTwoButtonOne>
+    <MessageCommand Message="Command Executed" IsEnabled="True"/>
+  </vdctx:Keyboard_Structure.RowTwoButtonOne>
+  <vdctx:Keyboard_Structure.RowOneButtonFourteen>
+    <MessageCommand Message="Command Executed" IsEnabled="True"/>
+  </vdctx:Keyboard_Structure.RowOneButtonFourteen>
+  <vdctx:Keyboard_Structure.RowOneButtonThirteen>
+    <MessageCommand Message="Command Executed" IsEnabled="True"/>
+  </vdctx:Keyboard_Structure.RowOneButtonThirteen>
+  <vdctx:Keyboard_Structure.RowOneButtonTwelve>
+    <MessageCommand Message="Command Executed" IsEnabled="True"/>
+  </vdctx:Keyboard_Structure.RowOneButtonTwelve>
+  <vdctx:Keyboard_Structure.RowOneButtonEleven>
+    <MessageCommand Message="Command Executed" IsEnabled="True"/>
+  </vdctx:Keyboard_Structure.RowOneButtonEleven>
+  <vdctx:Keyboard_Structure.RowOneButtonTen>
+    <MessageCommand Message="Command Executed" IsEnabled="True"/>
+  </vdctx:Keyboard_Structure.RowOneButtonTen>
+  <vdctx:Keyboard_Structure.RowOneButtonNine>
+    <MessageCommand Message="Command Executed" IsEnabled="True"/>
+  </vdctx:Keyboard_Structure.RowOneButtonNine>
+  <vdctx:Keyboard_Structure.RowOneButtonEight>
+    <MessageCommand Message="Command Executed" IsEnabled="True"/>
+  </vdctx:Keyboard_Structure.RowOneButtonEight>
+  <vdctx:Keyboard_Structure.RowOneButtonSeven>
+    <MessageCommand Message="Command Executed" IsEnabled="True"/>
+  </vdctx:Keyboard_Structure.RowOneButtonSeven>
+  <vdctx:Keyboard_Structure.RowOneButtonSix>
+    <MessageCommand Message="Command Executed" IsEnabled="True"/>
+  </vdctx:Keyboard_Structure.RowOneButtonSix>
+  <vdctx:Keyboard_Structure.RowOneButtonFive>
+    <MessageCommand Message="Command Executed" IsEnabled="True"/>
+  </vdctx:Keyboard_Structure.RowOneButtonFive>
+  <vdctx:Keyboard_Structure.RowOneButtonFour>
+    <MessageCommand Message="Command Executed" IsEnabled="True"/>
+  </vdctx:Keyboard_Structure.RowOneButtonFour>
+  <vdctx:Keyboard_Structure.RowOneButtonThree>
+    <MessageCommand Message="Command Executed" IsEnabled="True"/>
+  </vdctx:Keyboard_Structure.RowOneButtonThree>
+  <vdctx:Keyboard_Structure.RowOneButtonTwo>
+    <MessageCommand Message="Command Executed" IsEnabled="True"/>
+  </vdctx:Keyboard_Structure.RowOneButtonTwo>
+  <vdctx:Keyboard_Structure.RowOneButtonOne>
+    <MessageCommand Message="Command Executed" IsEnabled="True"/>
+  </vdctx:Keyboard_Structure.RowOneButtonOne>
+  <vdctx:Keyboard_Structure.Space>
+    <MessageCommand Message="Command Executed" IsEnabled="True"/>
+  </vdctx:Keyboard_Structure.Space>
+</vdctx:Keyboard_Structure>

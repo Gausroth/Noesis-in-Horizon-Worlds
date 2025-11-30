@@ -1,0 +1,184 @@
+<Page
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+  mc:Ignorable="d"
+  Background="#FF4D5052" xmlns:noesis="clr-namespace:NoesisGUIExtensions" Width="1625" Height="550" d:DataContext="Keyboard_Structure Data 01" d:DesignWidth="3840" d:DesignHeight="2160">
+  <Grid Height="550">
+    <StackPanel x:Name="VerticalStack" VerticalAlignment="Bottom">
+      <StackPanel x:Name="RowOne" Height="100" Orientation="Horizontal" Margin="5,5,5,5">
+        <Button Width="100" Height="100" BorderBrush="{x:Null}" Margin="5,0,5,0" Command="{Binding Path=RowOneButtonOne}" CommandParameter="`" Background="#FF000000">
+          <StackPanel Width="84" Height="86">
+            <TextBlock Text="~" TextWrapping="Wrap" FontSize="25" Foreground="{Binding Path=FontColor}"/>
+            <TextBlock Text="`" TextWrapping="Wrap" FontSize="40" TextAlignment="Center" Foreground="{Binding Path=FontColor}"/>
+          </StackPanel>
+        </Button>
+        <Button Width="100" Height="100" BorderBrush="{x:Null}" Margin="5,0,5,0" Command="{Binding Path=RowOneButtonTwo, StringFormat=F0, FallbackValue=1}" CommandParameter="1" Background="#FF000000">
+          <StackPanel Width="84" Height="86">
+            <TextBlock Text="!" TextWrapping="Wrap" FontSize="25" Foreground="{Binding Path=FontColor}"/>
+            <TextBlock Text="1" TextWrapping="Wrap" FontSize="40" TextAlignment="Center" Foreground="{Binding Path=FontColor}"/>
+          </StackPanel>
+        </Button>
+        <Button Width="100" Height="100" BorderBrush="{x:Null}" Margin="5,0,5,0" Command="{Binding Path=RowOneButtonThree}" CommandParameter="2" Background="#FF000000">
+          <StackPanel Width="84" Height="86">
+            <TextBlock Text="@" TextWrapping="Wrap" FontSize="25" Foreground="{Binding Path=FontColor}"/>
+            <TextBlock Text="2" TextWrapping="Wrap" FontSize="40" TextAlignment="Center" Foreground="{Binding Path=FontColor}"/>
+          </StackPanel>
+        </Button>
+        <Button Width="100" Height="100" BorderBrush="{x:Null}" Margin="5,0,5,0" Command="{Binding Path=RowOneButtonFour}" CommandParameter="3" Background="#FF000000">
+          <StackPanel Width="84" Height="86">
+            <TextBlock Text="#" TextWrapping="Wrap" FontSize="25" Foreground="{Binding Path=FontColor}"/>
+            <TextBlock Text="3" TextWrapping="Wrap" FontSize="40" TextAlignment="Center" Foreground="{Binding Path=FontColor}"/>
+          </StackPanel>
+        </Button>
+        <Button Width="100" Height="100" BorderBrush="{x:Null}" Margin="5,0,5,0" Command="{Binding Path=RowOneButtonFive}" CommandParameter="4" Background="#FF000000">
+          <StackPanel Width="84" Height="86">
+            <TextBlock Text="$" TextWrapping="Wrap" FontSize="25" Foreground="{Binding Path=FontColor}"/>
+            <TextBlock Text="4" TextWrapping="Wrap" FontSize="40" TextAlignment="Center" Foreground="{Binding Path=FontColor}"/>
+          </StackPanel>
+        </Button>
+        <Button Width="100" Height="100" BorderBrush="{x:Null}" Margin="5,0,5,0" Command="{Binding Path=RowOneButtonSix}" CommandParameter="5" Background="#FF000000">
+          <StackPanel Width="84" Height="86">
+            <TextBlock Text="%" TextWrapping="Wrap" FontSize="25" Foreground="{Binding Path=FontColor}"/>
+            <TextBlock Text="5" TextWrapping="Wrap" FontSize="40" TextAlignment="Center" Foreground="{Binding Path=FontColor}"/>
+          </StackPanel>
+        </Button>
+        <Button Width="100" Height="100" BorderBrush="{x:Null}" Margin="5,0,5,0" Command="{Binding Path=RowOneButtonSeven}" CommandParameter="6" Background="#FF000000">
+          <StackPanel Width="84" Height="86">
+            <TextBlock Text="^" TextWrapping="Wrap" FontSize="25" Foreground="{Binding Path=FontColor}"/>
+            <TextBlock Text="6" TextWrapping="Wrap" FontSize="40" TextAlignment="Center" Foreground="{Binding Path=FontColor}"/>
+          </StackPanel>
+        </Button>
+        <Button Width="100" Height="100" BorderBrush="{x:Null}" Margin="5,0,5,0" Command="{Binding Path=RowOneButtonEight}" CommandParameter="7" Background="#FF000000">
+          <StackPanel Width="84" Height="86">
+            <TextBlock Text="&amp;" TextWrapping="Wrap" FontSize="25" Foreground="{Binding Path=FontColor}"/>
+            <TextBlock Text="7" TextWrapping="Wrap" FontSize="40" TextAlignment="Center" Foreground="{Binding Path=FontColor}"/>
+          </StackPanel>
+        </Button>
+        <Button Width="100" Height="100" BorderBrush="{x:Null}" Margin="5,0,5,0" Command="{Binding Path=RowOneButtonNine}" CommandParameter="8" Background="#FF000000">
+          <StackPanel Width="84" Height="86">
+            <TextBlock Text="*" TextWrapping="Wrap" FontSize="25" Foreground="{Binding Path=FontColor}"/>
+            <TextBlock Text="8" TextWrapping="Wrap" FontSize="40" TextAlignment="Center" Foreground="{Binding Path=FontColor}"/>
+          </StackPanel>
+        </Button>
+        <Button Width="100" Height="100" BorderBrush="{x:Null}" Margin="5,0,5,0" Command="{Binding Path=RowOneButtonTen}" CommandParameter="9" Background="#FF000000">
+          <StackPanel Width="84" Height="86">
+            <TextBlock Text="(" TextWrapping="Wrap" FontSize="25" Foreground="{Binding Path=FontColor}"/>
+            <TextBlock Text="9" TextWrapping="Wrap" FontSize="40" TextAlignment="Center" Foreground="{Binding Path=FontColor}"/>
+          </StackPanel>
+        </Button>
+        <Button Width="100" Height="100" BorderBrush="{x:Null}" Margin="5,0,5,0" Command="{Binding Path=RowOneButtonEleven}" CommandParameter="0" Background="#FF000000">
+          <StackPanel Width="84" Height="86">
+            <TextBlock Text=")" TextWrapping="Wrap" FontSize="25" Foreground="{Binding Path=FontColor}"/>
+            <TextBlock Text="0" TextWrapping="Wrap" FontSize="40" TextAlignment="Center" Foreground="{Binding Path=FontColor}"/>
+          </StackPanel>
+        </Button>
+        <Button Width="100" Height="100" BorderBrush="{x:Null}" Margin="5,0,5,0" Command="{Binding Path=RowOneButtonTwelve}" CommandParameter="-" Background="#FF000000">
+          <StackPanel Width="84" Height="86">
+            <TextBlock Text="_" TextWrapping="Wrap" FontSize="25" Foreground="{Binding Path=FontColor}"/>
+            <TextBlock Text="-" TextWrapping="Wrap" FontSize="40" TextAlignment="Center" Foreground="{Binding Path=FontColor}"/>
+          </StackPanel>
+        </Button>
+        <Button Width="100" Height="100" BorderBrush="{x:Null}" Margin="5,0,5,0" Command="{Binding Path=RowOneButtonThirteen}" CommandParameter="=" Background="#FF000000">
+          <StackPanel Width="84" Height="86">
+            <TextBlock Text="+" TextWrapping="Wrap" FontSize="25" Foreground="{Binding Path=FontColor}"/>
+            <TextBlock Text="=" TextWrapping="Wrap" FontSize="40" TextAlignment="Center" Foreground="{Binding Path=FontColor}"/>
+          </StackPanel>
+        </Button>
+        <Button Width="175" Height="100" Content="BACKSPACE" BorderBrush="{x:Null}" Margin="5,0,5,0" FontSize="25" Command="{Binding Path=RowOneButtonFourteen}" CommandParameter="BACKSPACE" Foreground="{Binding Path=FontColor}" Background="#FF000000"/>
+      </StackPanel>
+      <StackPanel x:Name="RowTwo" Height="100" Orientation="Horizontal" Margin="5,5,5,5">
+        <Button Width="150" Height="100" Content="TAB" Margin="5,0,5,0" BorderBrush="{x:Null}" FontSize="25" Command="{Binding Path=RowTwoButtonOne}" CommandParameter="TAB" Foreground="{Binding Path=FontColor}" Background="#FF000000"/>
+        <Button Width="100" Height="100" Margin="5,0,5,0" BorderBrush="{x:Null}" FontSize="40" Content="Q" Command="{Binding Path=RowTwoButtonTwo}" CommandParameter="Q" Foreground="{Binding Path=FontColor}" Background="#FF000000"/>
+        <Button Width="100" Height="100" Margin="5,0,5,0" BorderBrush="{x:Null}" FontSize="40" Content="W" Command="{Binding Path=RowTwoButtonThree}" CommandParameter="W" Foreground="{Binding Path=FontColor}" Background="#FF000000"/>
+        <Button Width="100" Height="100" Margin="5,0,5,0" BorderBrush="{x:Null}" FontSize="40" Content="E" Command="{Binding Path=RowTwoButtonFour}" CommandParameter="E" Foreground="{Binding Path=FontColor}" Background="#FF000000"/>
+        <Button Width="100" Height="100" Margin="5,0,5,0" BorderBrush="{x:Null}" FontSize="40" Content="R" Command="{Binding Path=RowTwoButtonFive}" CommandParameter="R" Foreground="{Binding Path=FontColor}" Background="#FF000000"/>
+        <Button Width="100" Height="100" Margin="5,0,5,0" BorderBrush="{x:Null}" FontSize="40" Content="T" Command="{Binding Path=RowTwoButtonSix}" CommandParameter="T" Foreground="{Binding Path=FontColor}" Background="#FF000000"/>
+        <Button Width="100" Height="100" Margin="5,0,5,0" BorderBrush="{x:Null}" FontSize="40" Content="Y" Command="{Binding Path=RowTwoButtonSeven}" CommandParameter="Y" Foreground="{Binding Path=FontColor}" Background="#FF000000"/>
+        <Button Width="100" Height="100" Margin="5,0,5,0" BorderBrush="{x:Null}" FontSize="40" Content="U" Command="{Binding Path=RowTwoButtonEight}" CommandParameter="U" Foreground="{Binding Path=FontColor}" Background="#FF000000"/>
+        <Button Width="100" Height="100" Margin="5,0,5,0" BorderBrush="{x:Null}" FontSize="40" Content="I" Command="{Binding Path=RowTwoButtonNine}" CommandParameter="I" Foreground="{Binding Path=FontColor}" Background="#FF000000"/>
+        <Button Width="100" Height="100" Margin="5,0,5,0" BorderBrush="{x:Null}" FontSize="40" Content="O" Command="{Binding Path=RowTwoButtonTen}" CommandParameter="O" Foreground="{Binding Path=FontColor}" Background="#FF000000"/>
+        <Button Width="100" Height="100" Margin="5,0,5,0" BorderBrush="{x:Null}" FontSize="40" Content="P" Command="{Binding Path=RowTwoButtonEleven}" CommandParameter="P" Foreground="{Binding Path=FontColor}" Background="#FF000000"/>
+        <Button Width="100" Height="100" Margin="5,0,5,0" BorderBrush="{x:Null}" FontSize="25" Command="{Binding Path=RowTwoButtonTwelve}" CommandParameter="[" Background="#FF000000">
+          <StackPanel Width="84" Height="86">
+            <TextBlock Text="{}{" TextWrapping="Wrap" FontSize="25" Foreground="{Binding Path=FontColor}"/>
+            <TextBlock Text="[" TextWrapping="Wrap" FontSize="40" TextAlignment="Center" Foreground="{Binding Path=FontColor}"/>
+          </StackPanel>
+        </Button>
+        <Button Width="100" Height="100" Margin="5,0,5,0" BorderBrush="{x:Null}" FontSize="25" Command="{Binding Path=RowTwoButtonThirteen}" CommandParameter="]" Background="#FF000000">
+          <StackPanel Width="84" Height="86">
+            <TextBlock Text="}" TextWrapping="Wrap" FontSize="25" Foreground="{Binding Path=FontColor}"/>
+            <TextBlock Text="]" TextWrapping="Wrap" FontSize="40" TextAlignment="Center" Foreground="{Binding Path=FontColor}"/>
+          </StackPanel>
+        </Button>
+        <Button Width="125" Height="100" Margin="5,0,5,0" BorderBrush="{x:Null}" FontSize="25" Command="{Binding Path=RowTwoButtonFourteen, StringFormat=F0}" CommandParameter="\" Background="#FF000000">
+          <StackPanel Width="84" Height="86">
+            <TextBlock Text="|" TextWrapping="Wrap" FontSize="25" Foreground="{Binding Path=FontColor}"/>
+            <TextBlock Text="\" TextWrapping="Wrap" FontSize="40" TextAlignment="Center" Foreground="{Binding Path=FontColor}"/>
+          </StackPanel>
+        </Button>
+      </StackPanel>
+      <StackPanel x:Name="RowThree" Height="100" Orientation="Horizontal" Margin="5,5,5,5">
+        <Button Width="175" Height="100" Margin="5,0,5,0" Background="{Binding Path=RowThreeButtonOneButtonColor}" BorderBrush="{x:Null}" FontSize="25" Content="CAPS LOCK" Command="{Binding Path=RowThreeButtonOne}" CommandParameter="CAPS LOCK" Foreground="{Binding Path=FontColor}"/>
+        <Button Width="100" Height="100" Margin="5,0,5,0" BorderBrush="{x:Null}" FontSize="40" Content="A" Command="{Binding Path=RowThreeButtonTwo}" CommandParameter="A" Foreground="{Binding Path=FontColor}" Background="#FF000000"/>
+        <Button Width="100" Height="100" Margin="5,0,5,0" BorderBrush="{x:Null}" FontSize="40" Content="S" Command="{Binding Path=RowThreeButtonThree}" CommandParameter="S" Foreground="{Binding Path=FontColor}" Background="#FF000000"/>
+        <Button Width="100" Height="100" Margin="5,0,5,0" BorderBrush="{x:Null}" FontSize="40" Content="D" Command="{Binding Path=RowThreeButtonFour}" CommandParameter="D" Foreground="{Binding Path=FontColor}" Background="#FF000000"/>
+        <Button Width="100" Height="100" Margin="5,0,5,0" BorderBrush="{x:Null}" FontSize="40" Content="F" Command="{Binding Path=RowThreeButtonFive}" CommandParameter="F" Foreground="{Binding Path=FontColor}" Background="#FF000000"/>
+        <Button Width="100" Height="100" Margin="5,0,5,0" BorderBrush="{x:Null}" FontSize="40" Content="G" Command="{Binding Path=RowThreeButtonSix}" CommandParameter="G" Foreground="{Binding Path=FontColor}" Background="#FF000000"/>
+        <Button Width="100" Height="100" Margin="5,0,5,0" BorderBrush="{x:Null}" FontSize="40" Content="H" Command="{Binding Path=RowThreeButtonSeven}" CommandParameter="H" Foreground="{Binding Path=FontColor}" Background="#FF000000"/>
+        <Button Width="100" Height="100" Margin="5,0,5,0" BorderBrush="{x:Null}" FontSize="40" Content="J" Command="{Binding Path=RowThreeButtonEight}" CommandParameter="J" Foreground="{Binding Path=FontColor}" Background="#FF000000"/>
+        <Button Width="100" Height="100" Margin="5,0,5,0" BorderBrush="{x:Null}" FontSize="40" Content="K" Command="{Binding Path=RowThreeButtonNine}" CommandParameter="K" Foreground="{Binding Path=FontColor}" Background="#FF000000"/>
+        <Button Width="100" Height="100" Margin="5,0,5,0" BorderBrush="{x:Null}" FontSize="40" Content="L" Command="{Binding Path=RowThreeButtonTen}" CommandParameter="L" Foreground="{Binding Path=FontColor}" Background="#FF000000"/>
+        <Button Width="100" Height="100" Margin="5,0,5,0" BorderBrush="{x:Null}" FontSize="25" Command="{Binding Path=RowThreeButtonEleven}" CommandParameter=";" Background="#FF000000">
+          <StackPanel Width="84" Height="86">
+            <TextBlock Text=":" TextWrapping="Wrap" FontSize="25" Foreground="{Binding Path=FontColor}"/>
+            <TextBlock Text=";" TextWrapping="Wrap" FontSize="40" TextAlignment="Center" Foreground="{Binding Path=FontColor}"/>
+          </StackPanel>
+        </Button>
+        <Button Width="100" Height="100" Margin="5,0,5,0" BorderBrush="{x:Null}" FontSize="25" Command="{Binding Path=RowThreeButtonTwelve}" CommandParameter="&apos;" Background="#FF000000">
+          <StackPanel Width="84" Height="86">
+            <TextBlock Text="&quot;" TextWrapping="Wrap" FontSize="25" Foreground="{Binding Path=FontColor}"/>
+            <TextBlock Text="&apos;" TextWrapping="Wrap" FontSize="40" TextAlignment="Center" Foreground="{Binding Path=FontColor}"/>
+          </StackPanel>
+        </Button>
+        <Button Width="210" Height="100" Margin="5,0,5,0" BorderBrush="{x:Null}" FontSize="25" Content="ENTER" Command="{Binding Path=RowThreeButtonThirteen}" CommandParameter="ENTER" Foreground="{Binding Path=FontColor}" Background="#FF000000"/>
+      </StackPanel>
+      <StackPanel x:Name="RowFour" Height="100" Orientation="Horizontal" Margin="5,5,5,5">
+        <Button Width="200" Height="100" Margin="5,0,5,0" Background="{Binding Path=RowFourButtonOneButtonColor}" BorderBrush="{x:Null}" FontSize="25" Content="SHIFT" Command="{Binding Path=RowFourButtonOne}" CommandParameter="SHIFT" Foreground="{Binding Path=FontColor}"/>
+        <Button Width="100" Height="100" Margin="5,0,5,0" BorderBrush="{x:Null}" FontSize="40" Content="Z" Command="{Binding Path=RowFourButtonTwo}" CommandParameter="Z" Foreground="{Binding Path=FontColor}" Background="#FF000000"/>
+        <Button Width="100" Height="100" Margin="5,0,5,0" BorderBrush="{x:Null}" FontSize="40" Content="X" Command="{Binding Path=RowFourButtonThree}" CommandParameter="X" Foreground="{Binding Path=FontColor}" Background="#FF000000"/>
+        <Button Width="100" Height="100" Margin="5,0,5,0" BorderBrush="{x:Null}" FontSize="40" Content="C" Command="{Binding Path=RowFourButtonFour}" CommandParameter="C" Foreground="{Binding Path=FontColor}" Background="#FF000000"/>
+        <Button Width="100" Height="100" Margin="5,0,5,0" BorderBrush="{x:Null}" FontSize="40" Content="V" Command="{Binding Path=RowFourButtonFive}" CommandParameter="V" Foreground="{Binding Path=FontColor}" Background="#FF000000"/>
+        <Button Width="100" Height="100" Margin="5,0,5,0" BorderBrush="{x:Null}" FontSize="40" Content="B" Command="{Binding Path=RowFourButtonSix}" CommandParameter="B" Foreground="{Binding Path=FontColor}" Background="#FF000000"/>
+        <Button Width="100" Height="100" Margin="5,0,5,0" BorderBrush="{x:Null}" FontSize="40" Content="N" Command="{Binding Path=RowFourButtonSeven}" CommandParameter="N" Foreground="{Binding Path=FontColor}" Background="#FF000000"/>
+        <Button Width="100" Height="100" Margin="5,0,5,0" BorderBrush="{x:Null}" FontSize="40" Content="M" Command="{Binding Path=RowFourButtonEight}" CommandParameter="M" Foreground="{Binding Path=FontColor}" Background="#FF000000"/>
+        <Button Width="100" Height="100" Margin="5,0,5,0" BorderBrush="{x:Null}" FontSize="25" Command="{Binding Path=RowFourButtonNine}" CommandParameter="," Background="#FF000000">
+          <StackPanel Width="84" Height="86">
+            <TextBlock Text="&lt;" TextWrapping="Wrap" FontSize="25" Foreground="{Binding Path=FontColor}"/>
+            <TextBlock Text="," TextWrapping="Wrap" FontSize="40" TextAlignment="Center" Foreground="{Binding Path=FontColor}"/>
+          </StackPanel>
+        </Button>
+        <Button Width="100" Height="100" Margin="5,0,5,0" BorderBrush="{x:Null}" FontSize="25" Command="{Binding Path=RowFourButtonTen}" CommandParameter="." Background="#FF000000">
+          <StackPanel Width="84" Height="86">
+            <TextBlock Text="&gt;" TextWrapping="Wrap" FontSize="25" Foreground="{Binding Path=FontColor}"/>
+            <TextBlock Text="." TextWrapping="Wrap" FontSize="40" TextAlignment="Center" Foreground="{Binding Path=FontColor}"/>
+          </StackPanel>
+        </Button>
+        <Button Width="100" Height="100" Margin="5,0,5,0" BorderBrush="{x:Null}" FontSize="25" Command="{Binding Path=RowFourButtonEleven}" CommandParameter="/" Background="#FF000000">
+          <StackPanel Width="84" Height="86">
+            <TextBlock Text="?" TextWrapping="Wrap" FontSize="25" Foreground="{Binding Path=FontColor}"/>
+            <TextBlock Text="/" TextWrapping="Wrap" FontSize="40" TextAlignment="Center" Foreground="{Binding Path=FontColor}"/>
+          </StackPanel>
+        </Button>
+        <Button Width="295" Height="100" Margin="5,0,5,0" Background="{Binding Path=RowFourButtonTwelveButtonColor}" BorderBrush="{x:Null}" FontSize="25" Content="SHIFT" Command="{Binding Path=RowFourButtonTwelve}" CommandParameter="SHIFT" Foreground="{Binding Path=FontColor}"/>
+      </StackPanel>
+      <StackPanel x:Name="RowFive" Height="100" Orientation="Horizontal" Margin="5,5,5,5">
+        <Button Height="100" BorderBrush="{x:Null}" FontSize="25" Content="SPACE" Width="550" Margin="532.5,0,112,0" Command="{Binding Path=Space}" CommandParameter="Space" Foreground="{Binding Path=FontColor}" Background="#FF000000"/>
+        <Button Width="130" FontSize="40" Command="{Binding Path=RButton}" Background="{Binding Path=RButtonColor}" Content="{Binding Path=R}" Foreground="{Binding Path=FontColor}" Height="100" Margin="5,0,5,0" BorderBrush="{x:Null}"/>
+        <Button Width="130" FontSize="40" Command="{Binding Path=GButton}" Background="{Binding Path=GButtonColor}" Content="{Binding Path=G}" Foreground="{Binding Path=FontColor}" Height="100" Margin="5,0,5,0" BorderBrush="{x:Null}"/>
+        <Button Width="130" FontSize="40" Command="{Binding Path=BButton}" Background="{Binding Path=BButtonColor}" Content="{Binding Path=B}" Foreground="{Binding Path=FontColor}" Height="100" Margin="5,0,5,0" BorderBrush="{x:Null}"/>
+      </StackPanel>
+    </StackPanel>
+  </Grid>
+</Page>

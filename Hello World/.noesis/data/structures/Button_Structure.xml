@@ -1,0 +1,4 @@
+<Class Name="Button_Structure">
+  <Property Name="ButtonClickEvent" Type="Command"/>
+  <Property Name="Textbox" Type="String" StringMinWordCount="0" StringMaxWordCount="10"/>
+</Class>
