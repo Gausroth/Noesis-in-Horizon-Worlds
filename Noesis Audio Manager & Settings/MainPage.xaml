@@ -1,0 +1,99 @@
+<Page
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+  mc:Ignorable="d"
+  d:DesignWidth="1920"
+  d:DesignHeight="1080"
+  Background="#FF4D5052" Width="1024" Height="1024" xmlns:b="http://schemas.microsoft.com/xaml/behaviors" d:DataContext="MyStructure000 Data 01" xmlns:noesis="clr-namespace:NoesisGUIExtensions">
+  <Grid>
+    <StackPanel Margin="100,100,100,100">
+      <TextBlock TextWrapping="Wrap" Text="Audio Settings" HorizontalAlignment="Center" TextAlignment="Center" FontSize="50"/>
+      <StackPanel x:Name="Music" Margin="0,10,0,10">
+        <TextBlock x:Name="MusicTextBlock" TextWrapping="Wrap" Text="{Binding Path=MusicTextValue}" FontSize="25"/>
+        <Slider x:Name="MusicSlider" Background="#FF000000" Value="{Binding Path=MusicSliderValue}" Maximum="100">
+          <b:Interaction.Triggers>
+            <b:EventTrigger x:Name="MusicSliderMoved" EventName="ValueChanged">
+              <b:InvokeCommandAction Command="{Binding Path=MusicSliderMoved}" CommandParameter="{Binding Path=MusicSliderValue, StringFormat=F2}"/>
+            </b:EventTrigger>
+            <b:EventTrigger x:Name="MusicSliderStoppedMouse" EventName="LostMouseCapture">
+              <b:InvokeCommandAction Command="{Binding Path=SliderLostFocus}" CommandParameter="Music" PassEventArgsToCommand="False"/>
+            </b:EventTrigger>
+            <b:EventTrigger x:Name="MusicSliderStoppedTouch" EventName="LostTouchCapture">
+              <b:InvokeCommandAction Command="{Binding Path=SliderLostFocus}" CommandParameter="Music"/>
+            </b:EventTrigger>
+          </b:Interaction.Triggers>
+        </Slider>
+      </StackPanel>
+      <StackPanel x:Name="SFX" Margin="0,10,0,10">
+        <TextBlock x:Name="SFXTextBlock" TextWrapping="Wrap" Text="{Binding Path=SFXTextValue}" FontSize="25"/>
+        <Slider x:Name="SFXSlider" Background="#FF000000" Value="{Binding Path=SFXSliderValue}" Maximum="100">
+          <b:Interaction.Triggers>
+            <b:EventTrigger x:Name="SFXSliderMoved" EventName="ValueChanged">
+              <b:InvokeCommandAction Command="{Binding Path=SFXSliderMoved}" CommandParameter="{Binding Path=SFXSliderValue, StringFormat=F2}"/>
+            </b:EventTrigger>
+            <b:EventTrigger x:Name="SFXSliderStoppedMouse" EventName="LostMouseCapture">
+              <b:InvokeCommandAction Command="{Binding Path=SliderLostFocus}" CommandParameter="SFX"/>
+            </b:EventTrigger>
+            <b:EventTrigger x:Name="SFXSliderStoppedTouch" EventName="LostTouchCapture">
+              <b:InvokeCommandAction Command="{Binding Path=SliderLostFocus}" CommandParameter="SFX"/>
+            </b:EventTrigger>
+          </b:Interaction.Triggers>
+        </Slider>
+      </StackPanel>
+      <StackPanel x:Name="Ambient" Margin="0,10,0,10">
+        <TextBlock x:Name="AmbientTextBlock" TextWrapping="Wrap" Text="{Binding Path=AmbientTextValue}" FontSize="25"/>
+        <Slider x:Name="AmbientSlider" Background="#FF000000" Value="{Binding Path=AmbientSliderValue}" Maximum="100">
+          <b:Interaction.Triggers>
+            <b:EventTrigger x:Name="AmbientSliderMoved" EventName="ValueChanged">
+              <b:InvokeCommandAction Command="{Binding Path=AmbientSliderMoved}" CommandParameter="{Binding Path=AmbientSliderValue, StringFormat=F2}"/>
+            </b:EventTrigger>
+            <b:EventTrigger x:Name="AmbientSliderStoppedMouse" EventName="LostMouseCapture">
+              <b:InvokeCommandAction Command="{Binding Path=SliderLostFocus}" CommandParameter="Ambient"/>
+            </b:EventTrigger>
+            <b:EventTrigger x:Name="AmbientSliderStoppedTouch" EventName="LostTouchCapture">
+              <b:InvokeCommandAction Command="{Binding Path=SliderLostFocus}" CommandParameter="Ambient"/>
+            </b:EventTrigger>
+          </b:Interaction.Triggers>
+        </Slider>
+      </StackPanel>
+      <StackPanel x:Name="UI" Margin="0,10,0,10">
+        <TextBlock x:Name="UITextBlock" TextWrapping="Wrap" Text="{Binding Path=UITextValue}" FontSize="25"/>
+        <Slider x:Name="UISlider" Background="#FF000000" Value="{Binding Path=UISliderValue}" Maximum="100">
+          <b:Interaction.Triggers>
+            <b:EventTrigger x:Name="UISliderMoved" EventName="ValueChanged">
+              <b:InvokeCommandAction Command="{Binding Path=UISliderMoved}" CommandParameter="{Binding Path=UISliderValue, StringFormat=F2}"/>
+            </b:EventTrigger>
+            <b:EventTrigger x:Name="UISLiderStoppedMouse" EventName="LostMouseCapture">
+              <b:InvokeCommandAction Command="{Binding Path=SliderLostFocus}" CommandParameter="UI"/>
+            </b:EventTrigger>
+            <b:EventTrigger x:Name="UISLiderStoppedTouch" EventName="LostTouchCapture">
+              <b:InvokeCommandAction Command="{Binding Path=SliderLostFocus}" CommandParameter="UI"/>
+            </b:EventTrigger>
+          </b:Interaction.Triggers>
+        </Slider>
+      </StackPanel>
+      <StackPanel x:Name="Notification" Margin="0,10,0,10">
+        <TextBlock x:Name="NotificationTextBlock" TextWrapping="Wrap" Text="{Binding Path=NotificationTextValue}" FontSize="25"/>
+        <Slider x:Name="NotificationSlider" Background="#FF000000" Value="{Binding Path=NotificationSliderValue}" Maximum="100">
+          <b:Interaction.Triggers>
+            <b:EventTrigger x:Name="NotificationSliderMoved" EventName="ValueChanged">
+              <b:InvokeCommandAction Command="{Binding Path=NotificationSliderMoved}" CommandParameter="{Binding Path=NotificationSliderValue, StringFormat=F2}"/>
+            </b:EventTrigger>
+            <b:EventTrigger x:Name="NotificationSliderStoppedMouse" EventName="LostMouseCapture">
+              <b:InvokeCommandAction Command="{Binding Path=SliderLostFocus}" CommandParameter="Notification"/>
+            </b:EventTrigger>
+            <b:EventTrigger x:Name="NotificationSliderStoppedTouch" EventName="LostTouchCapture">
+              <b:InvokeCommandAction Command="{Binding Path=SliderLostFocus}" CommandParameter="Notification"/>
+            </b:EventTrigger>
+          </b:Interaction.Triggers>
+        </Slider>
+      </StackPanel>
+      <StackPanel Height="100" Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,50,0,0">
+        <ToggleButton x:Name="MuteToggle" Width="150" Content="{Binding Path=MuteTextValue}" Command="{Binding Path=MutePressed}" Margin="0,0,25,0"/>
+        <Button x:Name="DefaultButton" Content="Default Settings" Command="{Binding Path=DefaultSettingsPressed}" Margin="25,0,0,0" Width="150"/>
+      </StackPanel>
+    </StackPanel>
+  </Grid>
+</Page>

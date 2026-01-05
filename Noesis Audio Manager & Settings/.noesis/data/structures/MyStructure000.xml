@@ -1,0 +1,21 @@
+<Class Name="MyStructure000">
+  <Property Name="MusicSliderValue" Type="Number" NumberMinValue="0" NumberMaxValue="10" NumberDecimalCount="0"/>
+  <Property Name="MusicTextValue" Type="String" StringMinWordCount="0" StringMaxWordCount="10"/>
+  <Property Name="MusicSliderMoved" Type="Command"/>
+  <Property Name="SFXSliderValue" Type="Number" NumberMinValue="0" NumberMaxValue="10" NumberDecimalCount="0"/>
+  <Property Name="AmbientSliderValue" Type="Number" NumberMinValue="0" NumberMaxValue="10" NumberDecimalCount="0"/>
+  <Property Name="UISliderValue" Type="Number" NumberMinValue="0" NumberMaxValue="10" NumberDecimalCount="0"/>
+  <Property Name="SFXTextValue" Type="String" StringMinWordCount="0" StringMaxWordCount="10"/>
+  <Property Name="AmbientTextValue" Type="String" StringMinWordCount="0" StringMaxWordCount="10"/>
+  <Property Name="UITextValue" Type="String" StringMinWordCount="0" StringMaxWordCount="10"/>
+  <Property Name="SFXSliderMoved" Type="Command"/>
+  <Property Name="AmbientSliderMoved" Type="Command"/>
+  <Property Name="UISliderMoved" Type="Command"/>
+  <Property Name="NotificationSliderValue" Type="Number" NumberMinValue="0" NumberMaxValue="10" NumberDecimalCount="0"/>
+  <Property Name="NotificationTextValue" Type="String" StringMinWordCount="0" StringMaxWordCount="10"/>
+  <Property Name="NotificationSliderMoved" Type="Command"/>
+  <Property Name="DefaultSettingsPressed" Type="Command"/>
+  <Property Name="MutePressed" Type="Command"/>
+  <Property Name="MuteTextValue" Type="String" StringMinWordCount="0" StringMaxWordCount="10"/>
+  <Property Name="SliderLostFocus" Type="Command"/>
+</Class>

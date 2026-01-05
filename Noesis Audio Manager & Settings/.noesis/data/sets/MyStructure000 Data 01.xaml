@@ -1,0 +1,26 @@
+<vdctx:MyStructure000 xmlns:vdctx="clr-namespace:SliderTest" MusicSliderValue="50" MusicTextValue="Music: 50%" SFXSliderValue="50" AmbientSliderValue="50" UISliderValue="50" SFXTextValue="SFX: 50%" AmbientTextValue="Ambient: 50%" UITextValue="UI: 50%" NotificationSliderValue="50" NotificationTextValue="Notifications: 50%" MuteTextValue="Mute" xmlns:xml="http://www.w3.org/XML/1998/namespace">
+  <vdctx:MyStructure000.SliderLostFocus>
+    <MessageCommand Message="Command Executed" IsEnabled="True"/>
+  </vdctx:MyStructure000.SliderLostFocus>
+  <vdctx:MyStructure000.MutePressed>
+    <MessageCommand Message="Command Executed" IsEnabled="True"/>
+  </vdctx:MyStructure000.MutePressed>
+  <vdctx:MyStructure000.DefaultSettingsPressed>
+    <MessageCommand Message="Command Executed" IsEnabled="True"/>
+  </vdctx:MyStructure000.DefaultSettingsPressed>
+  <vdctx:MyStructure000.NotificationSliderMoved>
+    <MessageCommand Message="Command Executed" IsEnabled="True"/>
+  </vdctx:MyStructure000.NotificationSliderMoved>
+  <vdctx:MyStructure000.UISliderMoved>
+    <MessageCommand Message="Command Executed" IsEnabled="True"/>
+  </vdctx:MyStructure000.UISliderMoved>
+  <vdctx:MyStructure000.AmbientSliderMoved>
+    <MessageCommand Message="Command Executed" IsEnabled="True"/>
+  </vdctx:MyStructure000.AmbientSliderMoved>
+  <vdctx:MyStructure000.SFXSliderMoved>
+    <MessageCommand Message="Command Executed" IsEnabled="True"/>
+  </vdctx:MyStructure000.SFXSliderMoved>
+  <vdctx:MyStructure000.MusicSliderMoved>
+    <MessageCommand Message="Command Executed" IsEnabled="True"/>
+  </vdctx:MyStructure000.MusicSliderMoved>
+</vdctx:MyStructure000>
